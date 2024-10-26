@@ -3,17 +3,19 @@ window.addEventListener('scroll', function() {
     var contenido = document.getElementById('contenido');
     var scrollPosition = window.scrollY;
 
- 
     if (scrollPosition > 0) {
-        introImg.style.opacity = 0; 
+        introImg.style.opacity = 0;
         introImg.style.transform = 'scale(1)'; 
-        contenido.classList.add('mostrar'); 
+        introImg.style.pointerEvents = 'none';
+        contenido.classList.add('mostrar');
     } else {
-        introImg.style.opacity = 1; 
-        introImg.style.transform = 'scale(1.2)'; 
+        introImg.style.opacity = 1;
+        introImg.style.transform = 'scale(1.2)';
+        introImg.style.pointerEvents = 'auto'; 
         contenido.classList.remove('mostrar');
     }
 });
+
 const ciudad = "Cali, Valle";
 
 function obtenerFecha() {
@@ -26,4 +28,5 @@ function mostrarCiudadYFecha() {
     const elemento = document.getElementById("info-fecha-ciudad");
     elemento.innerHTML = `${ciudad}, ${obtenerFecha()}`;
 }
+
 mostrarCiudadYFecha();
