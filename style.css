@@ -11,7 +11,6 @@
     overflow: hidden;
     z-index: 10;
 }
-
 #intro-img {
     max-width: 100%;
     height: auto;
@@ -56,4 +55,7 @@ article {
 .imagenes_2{
     width: 80%;
     height: auto;
+}
+main {
+        margin-top: 0;
 }
