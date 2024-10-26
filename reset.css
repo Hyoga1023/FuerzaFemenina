@@ -79,6 +79,13 @@ a:hover {
     text-decoration: underline;
     color: #0056b3;
 }
+a img {
+    transition: transform 0.3s ease; 
+}
+
+a:hover img {
+    transform: scale(1.1);
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
