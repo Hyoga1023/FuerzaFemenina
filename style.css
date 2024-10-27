@@ -69,3 +69,6 @@ main {
     height: auto;
     margin-top: 50px;
 }
+.custom-hover:hover {
+    font-size: 3rem;
+  }
