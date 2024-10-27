@@ -72,3 +72,10 @@ main {
 .custom-hover:hover {
     font-size: 3rem;
   }
+  .linea-separadora {
+    width: 50%;
+    height: 2px; 
+    background: #b9022a; 
+    margin: 20px auto; 
+    position: relative; 
+}
