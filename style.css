@@ -35,7 +35,7 @@
     padding-top: 1rem; 
     flex-wrap: wrap; 
     gap: 0.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 .titulo__principal{
     display: flex;
@@ -78,4 +78,29 @@ main {
     background: #b9022a; 
     margin: 20px auto; 
     position: relative; 
+}
+.titulo_noticias{
+    display: flex;
+    justify-content: space-around;
+}
+.contenedor__noticias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 0;
+    gap: 3%;
+}
+.noticias__nacionales{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 7%;
+}
+.noticias__internacionales{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 7%;
 }
