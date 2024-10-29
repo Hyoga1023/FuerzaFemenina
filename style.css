@@ -95,8 +95,9 @@ main {
 .noticias__nacionales{
     display: flex;
     width: 100%;
-    justify-content: space-around;
-    gap: 7%;
+    padding: 2%;
+    margin-bottom: 0;
+    gap: 3%;
 }
 .noticias__internacionales{
     display: flex;
