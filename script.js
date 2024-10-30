@@ -31,17 +31,3 @@ function mostrarCiudadYFecha() {
 
 mostrarCiudadYFecha();
 
-//scroll
-
-document.addEventListener("DOMContentLoaded", function() {
-    const hash = window.location.hash;
-    if (hash) {
-        const targetElement = document.querySelector(hash);
-        if (targetElement) {
-            window.scrollTo({
-                top: targetElement.offsetTop - 112,
-                behavior: "smooth"
-            });
-        }
-    }
-});
